@@ -67,7 +67,7 @@ function timeDecreaser($element){
 
 function GameOver($element){
     removeEvent();
-    $element.width(280);           
+    $element.width(300);           
     $element.text("Game Over");             
     setTimeout(function() {                
         $element.text("Play Again?");
